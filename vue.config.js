@@ -3,7 +3,7 @@ const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   baseUrl: process.env.NODE_ENV === 'production'
-    ? '/shopping-list/'
+    ? '/shopping-list/dist/'
     : '/',
   outputDir: 'dist', // 构建输出目录
   assetsDir: 'assets', // 静态资源目录 (js, css, img, fonts)
